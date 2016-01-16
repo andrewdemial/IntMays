@@ -1,0 +1,84 @@
+.left_panel {
+	width: 210px;
+	height: 100%;
+	background-color: #ecefda;
+	margin-top: 0;
+	border-radius: 20px;
+	padding: 0px;
+	border: 1px solid #495624;
+	box-shadow: none;
+	padding-bottom: 20px;
+}
+
+.list {
+	width: 90%;
+	margin-left: 10px;
+	margin-top: 20px;
+	border-radius: 10px;
+	background-color: #ECECEC;
+}
+
+.list_title {
+	border-top: 1px solid #000;
+	border-left: 1px solid #333;
+	border-right: 1px solid #333;
+	background-color: #495624;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	margin-top: -3px;
+	color: #ebf0da;
+	font: bold 15px Arial, Helvetica, Sans-serif;
+	padding: 5px;
+	text-align: center;
+}
+
+.title {
+	background-color: #495624;
+	color: #ebf0da;
+	font: bold 15px Arial, Helvetica, Sans-serif;
+	padding: 5px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.list a {
+	text-decoration: none;
+	font: 13px verdana;
+	font-weight: bold;
+}
+
+.link {
+	border-bottom: 1px solid #333;
+	border-left: 1px solid #333;
+	border-right: 1px solid #333;
+	text-align: center;
+    color: #555;
+    margin: 0;
+    padding: 5px 0 5px 0;  
+    background: -moz-linear-gradient(top, #c7dbcb 0%, #e3e8e5);
+  	background: -webkit-gradient(linear, left top, left bottom, from(#c7dbcb), to(#e3e8e5));
+}
+
+.link:hover {
+    background: -moz-linear-gradient(top, #549c63 0%, #ced6d1);
+    background: -webkit-gradient(linear, left top, left bottom, from(#549c63), to(#ced6d1));
+}
+
+.last_link {
+	border-bottom: 1px solid #333;
+	border-left: 1px solid #333;
+	border-right: 1px solid #333;
+	text-align: center;
+    color: #555;
+    margin: 0px;
+    padding: 5px 0 5px 0;  
+    background: -moz-linear-gradient(top, #c7dbcb 0%, #e3e8e5);
+  	background: -webkit-gradient(linear, left top, left bottom, from(#c7dbcb), to(#e3e8e5));
+	border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.last_link:hover {
+	background: -moz-linear-gradient(top, #549c63 0%, #ced6d1);
+    background: -webkit-gradient(linear, left top, left bottom, from(#549c63), to(#ced6d1));
+}
