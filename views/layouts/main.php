@@ -67,8 +67,7 @@ AppAsset::register($this);
             ]]); ?>
             <hr class="line">
             <div class="left">
-                <?= LeftPanel::widget($this->params['lp_params']);
-                ?>
+                <?= isset($this->params['lp_params']) ? LeftPanel::widget($this->params['lp_params']):null; ?>
             </div>
             <div class="content">
                 <?= $content ?>

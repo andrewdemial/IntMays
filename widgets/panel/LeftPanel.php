@@ -4,6 +4,7 @@ namespace app\widgets\panel;
 
 use yii\base\Widget;
 use app\widgets\panel\PanelAsset;
+use yii\helpers\Url;
 
 class LeftPanel extends Widget
 {
@@ -23,7 +24,7 @@ class LeftPanel extends Widget
 			$this->result .= "<div class='list'><div class='list_title'>" . $this->list['title'] . "</div>";
 			$last_st = array_pop($this->list['items']);
 			foreach ($this->list['items'] as $item) {
-				$this->result .= "<a href=''><div class='link'>" . $item['label'] . "</div></a>";
+				$this->result .= "<a href='". Url::to([$item['link']]) ."'><div class='link'>" . $item['label'] . "</div></a>";
 			}
 			$this->result .= "<a href=''><div class='last_link'>" . $last_st['label'] . "</div></a></div>";
 		}
