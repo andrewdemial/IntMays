@@ -26,7 +26,7 @@ class LeftPanel extends Widget
 			foreach ($this->list['items'] as $item) {
 				$this->result .= "<a href='". Url::to([$item['link']]) ."'><div class='link'>" . $item['label'] . "</div></a>";
 			}
-			$this->result .= "<a href=''><div class='last_link'>" . $last_st['label'] . "</div></a></div>";
+			$this->result .= "<a href='". Url::to([$last_st['link']]) ."'><div class='last_link'>" . $last_st['label'] . "</div></a></div>";
 		}
 		if ($this->calendar == true) {
 			$this->result .= "<div class='title'>Календар</div>";

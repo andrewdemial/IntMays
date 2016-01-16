@@ -39,6 +39,11 @@ $config = [
         ],
         'db' => require(__DIR__ . '/db.php'),
     ],
+    'modules' => [
+        'doors' => [
+            'class' => 'app\modules\doors\Doors',
+        ],
+    ],
     'params' => $params,
 ];
 
